@@ -1,0 +1,72 @@
+@font-face {
+    font-family: jost-italic;
+    src: url(assets/font/jost-italic.ttf);
+}
+@font-face {
+    font-family: jost;
+    src: url(assets/font/jost.ttf);
+}
+@font-face {
+    font-family: jost-bold;
+    src: url(assets/font/jost.ttf);
+    font-weight: 900;
+}
+body {
+    font-family: jost;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.b-red {
+    border: 1px solid red;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main .box-1 {
+    text-align: center;
+}
+.main .box-1 img {
+    width: 170px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e4dfdf;
+}
+.main .box-2 {
+    display: flex;
+    justify-content: center;
+}
+.main .box-2 div {
+    padding: 20px;
+}
+.main .box-2 div h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: jost-bold;
+    letter-spacing: 3px;
+    color: #A5082E;
+}
+.main .box-2 img {
+    width: 250px;
+}
+.main .box-2 p a {
+    text-decoration: none;
+    color: #686464;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.fit-content {
+    width: fit-content;
+}
+.box-footer {
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+ion-icon.disabled {
+    pointer-events: none;
+}
